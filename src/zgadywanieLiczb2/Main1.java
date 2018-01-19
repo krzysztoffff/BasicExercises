@@ -25,7 +25,7 @@ public class Main1 {
 
 		while (check != 1) {
 			result = (max - min) / 2 + min;
-			System.out.println("Try " + counter + ". Is it the number: " + result + "?\n Enter 1 = Yes, 2 = No.");
+			System.out.println("Try " + counter + ". Is it the number: " + result + "?\n Enter 1 = Yes, 2 = No. \n (then tap enter or space or both).");
 
 			try {
 				check = s.nextInt();
@@ -33,7 +33,7 @@ public class Main1 {
 				s.nextLine();
 			}
 			if (check == 2) {
-				int checkN = 0;//jezcze sprawd≈∫ czy nie k≈Çamie!
+				int checkN = 0;//TODO dodaj funkcjonalnoúÊ czy uøytkownik nie k≥amie!
 				System.out.println("Is it too big?\nEnter 1 = Yes, 2 = No.");
 
 				try {
@@ -44,7 +44,7 @@ public class Main1 {
 				if (checkN == 1) {
 					max = result;
 					counter++;
-				} else if (check == 2) {
+				} else if (checkN == 2) {
 					min = result;
 					counter++;
 				}
