@@ -8,3 +8,4 @@
 <h4>package src/methods - simple methods learning</h4>
 <h4>package src/tables - tables & methods learning</h4>
 <h4>package src/multidimensional_array - multidimensional arrays operations</h4>
+<h4>package src/signs - operations on strings</h4>
