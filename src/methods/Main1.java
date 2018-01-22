@@ -7,7 +7,9 @@ public class Main1 {
 		int result = square(number);
 
 		System.out.println(number + " ^ 2 = " + result);
-
+		
+		
+		
 	}
 
 	static int square(int num) {
